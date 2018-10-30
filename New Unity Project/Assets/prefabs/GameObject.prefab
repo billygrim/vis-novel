@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1964836619764270}
+  m_IsPrefabAsset: 1
+--- !u!1 &1964836619764270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4308690920684220}
+  - component: {fileID: 114708109999251534}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4308690920684220
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1964836619764270}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114708109999251534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1964836619764270}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33e0927232b5474692f9dc9a12027ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ContentTextForMe: {fileID: 0}
+  contentTextForNaomi: {fileID: 0}
+  contentTextForSarah: {fileID: 0}
+  contentTextForChiaki: {fileID: 0}
+  contentTexForUnkownCharacter: {fileID: 0}
+  nameTextForMe: {fileID: 0}
+  nameTextForNaomi: {fileID: 0}
+  nameTextForSarah: {fileID: 0}
+  nameTextForChiaki: {fileID: 0}
+  nameTextForUnkownCharacter: {fileID: 0}
+  lineContoller: 0
+  optionA: {fileID: 0}
+  optionB: {fileID: 0}
+  continueButton: {fileID: 0}
