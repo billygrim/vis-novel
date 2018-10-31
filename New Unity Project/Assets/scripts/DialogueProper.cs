@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -182,6 +182,6 @@ public class DialogueProperSceneOne : MonoBehaviour
             contentField[0].text = "Yeah, mayeb some other time";
         }
     }
-}
+}*/
 
     
