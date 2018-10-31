@@ -9,8 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0dd2cfbe428654b4a921d9d1511f6dc7, type: 3}
-  m_Name: Ken
+  m_Name: Sarah
   m_EditorClassIdentifier: 
-  charName: 
-  textColour: {r: 0, g: 0, b: 0, a: 0}
-  charSprite: {fileID: 0}
+  charName: Sarah
+  textColour: {r: 0.8490566, g: 0.35644355, b: 0.7864436, a: 1}
+  charSprite:
+  - {fileID: 21300000, guid: 11a403c13e5196649bd5f0bfa357af64, type: 3}

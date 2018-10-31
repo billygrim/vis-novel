@@ -12,6 +12,11 @@ public class DialogueComponents
 
 	[TextArea]
 	public string contentField;
+
+	public bool showButton;
+
+	public string optionA;
+	public string optionB;
 }
 
 public class DialogueManager : MonoBehaviour {
@@ -22,7 +27,15 @@ public class DialogueManager : MonoBehaviour {
 
 	public Text characterName;
 	public Text dialogueFields;
+
+	public Button firstOption;
+	public Button secondOption;
+
+	public Text optionA_Text;
+	public Text optionB_Text;
+	
 	public Image pose;
+
 	
 
 
@@ -30,6 +43,12 @@ public class DialogueManager : MonoBehaviour {
 	void Start () {
 
 		index = 0;
+
+		optionA_Text.gameObject.SetActive(false);
+		optionB_Text.gameObject.SetActive(false);
+
+		//option.gameObject.SetActive(false);
+
 	}
 	
 	// Update is called once per frame
@@ -50,7 +69,7 @@ public class DialogueManager : MonoBehaviour {
 			dialogueFields.color = dialogues[index].character.textColour;
 			Sprite temp = dialogues[index].character.GetSprite(dialogues[index].poseIndex);
 
-			if (temp==null)
+			if (temp == null)
 			{
 				pose.gameObject.SetActive(false);
 			}
@@ -60,15 +79,21 @@ public class DialogueManager : MonoBehaviour {
 				pose.sprite = dialogues[index].character.GetSprite(dialogues[index].poseIndex); pose.sprite = dialogues[index].character.GetSprite(dialogues[index].poseIndex);
 			}
 
+			if (dialogues[index].showButton)
+			{
+				print("is this working");
 
-			
+				firstOption.gameObject.SetActive(true);
+				secondOption.gameObject.SetActive(true);
 
+				optionA_Text.gameObject.SetActive(true);
+				optionB_Text.gameObject.SetActive(true);
 
+				optionA_Text.text = dialogues[index].optionA;
+				optionB_Text.text = dialogues[index].optionB;
+			}
 
 		}
-		
-
-
 
 	}
 
