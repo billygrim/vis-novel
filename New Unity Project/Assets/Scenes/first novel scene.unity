@@ -290,6 +290,7 @@ GameObject:
   - component: {fileID: 286495583}
   - component: {fileID: 286495582}
   - component: {fileID: 286495581}
+  - component: {fileID: 286495584}
   m_Layer: 5
   m_Name: optionA
   m_TagString: Untagged
@@ -314,7 +315,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.37812346, y: 0.6445438}
   m_AnchorMax: {x: 0.7375309, y: 0.83515793}
-  m_AnchoredPosition: {x: -0.05000305, y: 0.7000046}
+  m_AnchoredPosition: {x: -0.05000305, y: 0.7000122}
   m_SizeDelta: {x: 0.8999939, y: -1.5999985}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &286495581
@@ -394,6 +395,19 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 286495579}
   m_CullTransparentMesh: 0
+--- !u!114 &286495584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 286495579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd3685256116294eb7a5bd32ead8624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeScene: {fileID: 286495581}
+  sceneName: second novel scene
 --- !u!114 &363083159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1155,7 +1169,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000022888184}
+  m_AnchoredPosition: {x: 0, y: -0.000030517578}
   m_SizeDelta: {x: 0, y: -0.7160034}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1465860566
@@ -1328,7 +1342,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.37812346, y: 0.30528006}
   m_AnchorMax: {x: 0.6315309, y: 0.98245615}
-  m_AnchoredPosition: {x: -1.356102, y: 3.6450005}
+  m_AnchoredPosition: {x: -1.3561096, y: 3.6450043}
   m_SizeDelta: {x: 3.290001, y: 0.7100067}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1689936266
@@ -1501,6 +1515,7 @@ GameObject:
   - component: {fileID: 1943228773}
   - component: {fileID: 1943228772}
   - component: {fileID: 1943228771}
+  - component: {fileID: 1943228774}
   m_Layer: 5
   m_Name: optionB
   m_TagString: Untagged
@@ -1525,7 +1540,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.388, y: 0.3272099}
   m_AnchorMax: {x: 0.7375309, y: 0.5158103}
-  m_AnchoredPosition: {x: -1.802002, y: -0.14499664}
+  m_AnchoredPosition: {x: -1.802002, y: -0.14498901}
   m_SizeDelta: {x: 3.899994, y: -1.5999985}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1943228771
@@ -1605,6 +1620,19 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1943228769}
   m_CullTransparentMesh: 0
+--- !u!114 &1943228774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1943228769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd3685256116294eb7a5bd32ead8624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeScene: {fileID: 1943228771}
+  sceneName: fhdf
 --- !u!1 &1982829022
 GameObject:
   m_ObjectHideFlags: 0

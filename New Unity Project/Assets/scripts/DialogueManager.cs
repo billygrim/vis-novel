@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class DialogueComponents
@@ -33,6 +34,8 @@ public class DialogueManager : MonoBehaviour {
 
 	public Text optionA_Text;
 	public Text optionB_Text;
+
+	
 	
 	public Image pose;
 
@@ -91,6 +94,8 @@ public class DialogueManager : MonoBehaviour {
 
 				optionA_Text.text = dialogues[index].optionA;
 				optionB_Text.text = dialogues[index].optionB;
+
+
 			}
 
 		}
