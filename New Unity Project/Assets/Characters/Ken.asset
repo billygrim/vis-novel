@@ -14,3 +14,7 @@ MonoBehaviour:
   charName: Ken
   textColour: {r: 0.006007465, g: 0.062209222, b: 0.4245283, a: 1}
   charSprite: []
+  playerFont:
+  - {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 12800000, guid: 554a28fc80f77734fb8abb2930c1ceb5, type: 3}
+  playerFontStyle: 0

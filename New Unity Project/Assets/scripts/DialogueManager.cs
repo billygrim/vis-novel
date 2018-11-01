@@ -22,6 +22,8 @@ public class DialogueComponents
 
 	public string optionA;
 	public string optionB;
+
+	public Color colorText;
 }
 
 public class DialogueManager : MonoBehaviour {
@@ -103,6 +105,9 @@ public class DialogueManager : MonoBehaviour {
 
 				optionA_Text.text = dialogues[index].optionA;
 				optionB_Text.text = dialogues[index].optionB;
+
+				optionA_Text.color = dialogues[index].colorText;
+				optionB_Text.color = dialogues[index].colorText;
 
 
 			}

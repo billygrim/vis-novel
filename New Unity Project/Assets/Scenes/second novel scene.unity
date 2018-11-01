@@ -1045,19 +1045,47 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - character: {fileID: 11400000, guid: c7de789ddfc583d41851f9925654de93, type: 2}
+  - character: {fileID: 11400000, guid: 104bae82ffe763c42bbc85a0b85f2dd2, type: 2}
     poseIndex: 0
-    contentField: hey hot stuff, your are still mine..
+    fontIndex: 0
+    contentField: You though you could leave me??
     showButton: 0
     optionA: 
     optionB: 
-  - character: {fileID: 11400000, guid: 94095a0cdaa51844bbd9708bdf3e3452, type: 2}
+    colorText: {r: 0, g: 0, b: 0, a: 0}
+  - character: {fileID: 11400000, guid: 104bae82ffe763c42bbc85a0b85f2dd2, type: 2}
     poseIndex: 0
-    contentField: im still trapped here..
+    fontIndex: 0
+    contentField: Like I said before
     showButton: 0
     optionA: 
     optionB: 
-  index: 0
+    colorText: {r: 0, g: 0, b: 0, a: 0}
+  - character: {fileID: 11400000, guid: 104bae82ffe763c42bbc85a0b85f2dd2, type: 2}
+    poseIndex: 0
+    fontIndex: 0
+    contentField: You belong to me
+    showButton: 0
+    optionA: 
+    optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
+  - character: {fileID: 11400000, guid: 104bae82ffe763c42bbc85a0b85f2dd2, type: 2}
+    poseIndex: 0
+    fontIndex: 0
+    contentField: And ONLY ME !!
+    showButton: 0
+    optionA: 
+    optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
+  - character: {fileID: 11400000, guid: 104bae82ffe763c42bbc85a0b85f2dd2, type: 2}
+    poseIndex: 0
+    fontIndex: 0
+    contentField: AHAHAHAHAHAHAHAHAHAHAHA
+    showButton: 0
+    optionA: 
+    optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
+  index: 1
   characterName: {fileID: 319714566}
   dialogueFields: {fileID: 1530991649}
   firstOption: {fileID: 460411942}
@@ -1101,7 +1129,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 11a403c13e5196649bd5f0bfa357af64, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -407,7 +407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   changeScene: {fileID: 286495581}
-  sceneName: second novel scene
+  sceneName: fhdf
 --- !u!114 &363083159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1468,6 +1468,7 @@ MonoBehaviour:
     showButton: 0
     optionA: 
     optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
   - character: {fileID: 11400000, guid: 104bae82ffe763c42bbc85a0b85f2dd2, type: 2}
     poseIndex: 0
     fontIndex: 2
@@ -1475,6 +1476,7 @@ MonoBehaviour:
     showButton: 0
     optionA: 
     optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
   - character: {fileID: 11400000, guid: 104bae82ffe763c42bbc85a0b85f2dd2, type: 2}
     poseIndex: 0
     fontIndex: 2
@@ -1482,6 +1484,7 @@ MonoBehaviour:
     showButton: 0
     optionA: 
     optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
   - character: {fileID: 11400000, guid: 0234fe61770c9014d8a70f2d62bedb0e, type: 2}
     poseIndex: 0
     fontIndex: 0
@@ -1489,6 +1492,7 @@ MonoBehaviour:
     showButton: 0
     optionA: 
     optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
   - character: {fileID: 11400000, guid: 0234fe61770c9014d8a70f2d62bedb0e, type: 2}
     poseIndex: 0
     fontIndex: 0
@@ -1496,6 +1500,7 @@ MonoBehaviour:
     showButton: 0
     optionA: 
     optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
   - character: {fileID: 11400000, guid: 0234fe61770c9014d8a70f2d62bedb0e, type: 2}
     poseIndex: 0
     fontIndex: 0
@@ -1503,6 +1508,7 @@ MonoBehaviour:
     showButton: 0
     optionA: 
     optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
   - character: {fileID: 11400000, guid: 0234fe61770c9014d8a70f2d62bedb0e, type: 2}
     poseIndex: 0
     fontIndex: 0
@@ -1510,6 +1516,7 @@ MonoBehaviour:
     showButton: 0
     optionA: 
     optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
   - character: {fileID: 11400000, guid: 0234fe61770c9014d8a70f2d62bedb0e, type: 2}
     poseIndex: 0
     fontIndex: 0
@@ -1517,27 +1524,31 @@ MonoBehaviour:
     showButton: 0
     optionA: 
     optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
   - character: {fileID: 11400000, guid: 0234fe61770c9014d8a70f2d62bedb0e, type: 2}
     poseIndex: 0
     fontIndex: 0
-    contentField: I wished i never followed her.
+    contentField: I wish I never followed her.
     showButton: 0
     optionA: 
     optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
   - character: {fileID: 11400000, guid: 0234fe61770c9014d8a70f2d62bedb0e, type: 2}
     poseIndex: 0
     fontIndex: 0
-    contentField: I wished I never listened to her
+    contentField: I wish I never listened to her
     showButton: 0
     optionA: 
     optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
   - character: {fileID: 11400000, guid: 0234fe61770c9014d8a70f2d62bedb0e, type: 2}
     poseIndex: 0
     fontIndex: 0
-    contentField: I wished I never met her
+    contentField: I wish I never met her
     showButton: 0
     optionA: 
     optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
   - character: {fileID: 11400000, guid: 104bae82ffe763c42bbc85a0b85f2dd2, type: 2}
     poseIndex: 0
     fontIndex: 2
@@ -1545,6 +1556,7 @@ MonoBehaviour:
     showButton: 0
     optionA: 
     optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
   - character: {fileID: 11400000, guid: 104bae82ffe763c42bbc85a0b85f2dd2, type: 2}
     poseIndex: 0
     fontIndex: 2
@@ -1552,6 +1564,7 @@ MonoBehaviour:
     showButton: 0
     optionA: 
     optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
   - character: {fileID: 11400000, guid: 104bae82ffe763c42bbc85a0b85f2dd2, type: 2}
     poseIndex: 0
     fontIndex: 2
@@ -1559,6 +1572,7 @@ MonoBehaviour:
     showButton: 0
     optionA: 
     optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
   - character: {fileID: 11400000, guid: 104bae82ffe763c42bbc85a0b85f2dd2, type: 2}
     poseIndex: 0
     fontIndex: 2
@@ -1566,34 +1580,39 @@ MonoBehaviour:
     showButton: 0
     optionA: 
     optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
   - character: {fileID: 11400000, guid: 0234fe61770c9014d8a70f2d62bedb0e, type: 2}
     poseIndex: 0
-    fontIndex: 2
+    fontIndex: 0
     contentField: I didn't want this!
     showButton: 0
     optionA: 
     optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
   - character: {fileID: 11400000, guid: 0234fe61770c9014d8a70f2d62bedb0e, type: 2}
     poseIndex: 0
-    fontIndex: 2
+    fontIndex: 0
     contentField: I'll do anything to fix this.
     showButton: 0
     optionA: 
     optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
   - character: {fileID: 11400000, guid: 0234fe61770c9014d8a70f2d62bedb0e, type: 2}
     poseIndex: 0
-    fontIndex: 2
+    fontIndex: 0
     contentField: God Please Save ME !!!
     showButton: 0
     optionA: 
     optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
   - character: {fileID: 11400000, guid: 0234fe61770c9014d8a70f2d62bedb0e, type: 2}
     poseIndex: 0
-    fontIndex: 2
+    fontIndex: 0
     contentField: God Please Save ME !!!
     showButton: 1
     optionA: Do you wish to stay ?
     optionB: Do you wish to leave ?
+    colorText: {r: 0.9056604, g: 0.40583837, b: 0.72643894, a: 0.89411765}
   index: 0
   characterName: {fileID: 1286509406}
   dialogueFields: {fileID: 363083159}
@@ -1731,7 +1750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   changeScene: {fileID: 1943228771}
-  sceneName: fhdf
+  sceneName: second novel scene
 --- !u!1 &1982829022
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,3 +18,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 11a403c13e5196649bd5f0bfa357af64, type: 3}
   - {fileID: 21300000, guid: 11a403c13e5196649bd5f0bfa357af64, type: 3}
   - {fileID: 21300000, guid: 11a403c13e5196649bd5f0bfa357af64, type: 3}
+  playerFont:
+  - {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 12800000, guid: b135c71b6e1e1e64b9bed51afac8cf9b, type: 3}
+  playerFontStyle: 0

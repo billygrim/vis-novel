@@ -380,20 +380,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - character: {fileID: 11400000, guid: c7de789ddfc583d41851f9925654de93, type: 2}
+  - character: {fileID: 11400000, guid: 104bae82ffe763c42bbc85a0b85f2dd2, type: 2}
     poseIndex: 0
-    contentField: Where do you thing you're going... You belong to me and ONLY ME!!!!!
+    fontIndex: 0
+    contentField: Good boy, you finally understand whats going on now.
     showButton: 0
     optionA: 
     optionB: 
-  index: 0
+    colorText: {r: 0, g: 0, b: 0, a: 0}
+  - character: {fileID: 11400000, guid: 104bae82ffe763c42bbc85a0b85f2dd2, type: 2}
+    poseIndex: 0
+    fontIndex: 0
+    contentField: You finally understand that you are mine
+    showButton: 0
+    optionA: 
+    optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
+  - character: {fileID: 11400000, guid: 104bae82ffe763c42bbc85a0b85f2dd2, type: 2}
+    poseIndex: 0
+    fontIndex: 0
+    contentField: All mine
+    showButton: 0
+    optionA: 
+    optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
+  - character: {fileID: 11400000, guid: 104bae82ffe763c42bbc85a0b85f2dd2, type: 2}
+    poseIndex: 0
+    fontIndex: 0
+    contentField: AHAHAHAHAHAHAHAHAHAHA
+    showButton: 0
+    optionA: 
+    optionB: 
+    colorText: {r: 0, g: 0, b: 0, a: 0}
+  index: 1
   characterName: {fileID: 24122131}
   dialogueFields: {fileID: 14631640}
   firstOption: {fileID: 726629828}
   secondOption: {fileID: 883152451}
   optionA_Text: {fileID: 2014995658}
   optionB_Text: {fileID: 871569670}
-  sceneName: 
   pose: {fileID: 216102622}
 --- !u!1 &719808215
 GameObject:
