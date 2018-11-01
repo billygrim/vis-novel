@@ -8,8 +8,12 @@ using UnityEngine.SceneManagement;
 public class DialogueComponents
 {
 	public Character character;
+
 	[Range(0,3)]
 	public int poseIndex;
+
+    [Range(0,2)]
+    public int fontIndex;
 
 	[TextArea]
 	public string contentField;
@@ -49,10 +53,12 @@ public class DialogueManager : MonoBehaviour {
 
 		optionA_Text.gameObject.SetActive(false);
 		optionB_Text.gameObject.SetActive(false);
+        pose.gameObject.SetActive(false);
 
-		//option.gameObject.SetActive(false);
 
-	}
+
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -60,6 +66,7 @@ public class DialogueManager : MonoBehaviour {
 		{
 			ShowText();
 			index++;
+
 		}
 	}
 
@@ -67,6 +74,8 @@ public class DialogueManager : MonoBehaviour {
 	{
 		if (index < dialogues.Length)
 		{
+            dialogueFields.font = dialogues[index].character.GetFont(dialogues[index].fontIndex);
+            dialogueFields.fontStyle = dialogues[index].character.playerFontStyle;
 			characterName.text = dialogues[index].character.charName;
 			dialogueFields.text = dialogues[index].contentField;
 			dialogueFields.color = dialogues[index].character.textColour;

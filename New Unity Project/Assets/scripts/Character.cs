@@ -9,6 +9,8 @@ public class Character : ScriptableObject {
 	public string charName;
 	public Color textColour;
 	public Sprite[] charSprite;
+    public Font[] playerFont;
+    public FontStyle playerFontStyle;
 
 	public Sprite GetSprite( int index)
 	{
@@ -20,4 +22,15 @@ public class Character : ScriptableObject {
 		index = Mathf.Clamp(index, 0, charSprite.Length - 1);
 		return charSprite[index];
 	}
+
+    public Font GetFont( int index)
+    {
+        if (playerFont.Length ==0)
+        {
+            return null;
+        }
+
+        index = Mathf.Clamp(index, 0, playerFont.Length - 1);
+        return playerFont[index];
+    }
 }

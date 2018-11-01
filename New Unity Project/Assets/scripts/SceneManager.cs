@@ -16,7 +16,7 @@ namespace OurGame
             changeScene.onClick.AddListener(DelayedSceneLoad);
         }
 
-      /*  private void LoadNewScene()
+       /*private void LoadNewScene()
         {
             FindObjectOfType<SceneFader>().In();
             Invoke("DelayedSceneLoad", 1);

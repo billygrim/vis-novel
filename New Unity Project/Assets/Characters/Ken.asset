@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Name: Ken
   m_EditorClassIdentifier: 
   charName: Ken
-  textColour: {r: 0.9622642, g: 0.06808472, b: 0.26988772, a: 1}
+  textColour: {r: 0.006007465, g: 0.062209222, b: 0.4245283, a: 1}
   charSprite: []

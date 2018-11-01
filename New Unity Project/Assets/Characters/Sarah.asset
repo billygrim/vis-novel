@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Name: Sarah
   m_EditorClassIdentifier: 
   charName: Sarah
-  textColour: {r: 0.8490566, g: 0.35644355, b: 0.7864436, a: 1}
+  textColour: {r: 0.9601788, g: 0.9622642, b: 0.36765754, a: 1}
   charSprite:
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 11a403c13e5196649bd5f0bfa357af64, type: 3}
+  - {fileID: 21300000, guid: 11a403c13e5196649bd5f0bfa357af64, type: 3}
   - {fileID: 21300000, guid: 11a403c13e5196649bd5f0bfa357af64, type: 3}

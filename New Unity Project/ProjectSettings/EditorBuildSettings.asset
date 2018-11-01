@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/second novel scene.unity
     guid: 6cdc592722536da4dae61ec2a2c7f49e
+  - enabled: 1
+    path: Assets/Scenes/fhdf.unity
+    guid: 3c4360d84d2ae96429de6ea61391fbe7
   m_configObjects: {}

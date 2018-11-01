@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Name: Chiaki
   m_EditorClassIdentifier: 
   charName: Chiaki
-  textColour: {r: 0.8490566, g: 0.49261305, b: 0.84038275, a: 1}
-  charSprite: []
+  textColour: {r: 0.9468492, g: 0.6247775, b: 0.9811321, a: 1}
+  charSprite:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
