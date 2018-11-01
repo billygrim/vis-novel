@@ -15,6 +15,6 @@ MonoBehaviour:
   textColour: {r: 1, g: 1, b: 1, a: 1}
   charSprite: []
   playerFont:
-  - {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-  - {fileID: 12800000, guid: 57f983473bd729f4e9b43780f50f9a29, type: 3}
+  - {fileID: 12800000, guid: 554a28fc80f77734fb8abb2930c1ceb5, type: 3}
+  - {fileID: 12800000, guid: 5fbaf82b1400ede4d95cdaf1327af4f3, type: 3}
   playerFontStyle: 2
